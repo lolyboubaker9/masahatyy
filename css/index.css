@@ -1,0 +1,67 @@
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #96b3c5;
+    direction: rtl;
+    color: #06283d;
+    text-align: center;
+    font-size: 20px;
+    }
+    h1 {
+        text-align: center;
+    }
+    .IMGE img {
+            display: inline-block;
+            text-align: top center;
+    
+    }
+        header {
+        padding: 10PX 10PX;
+        font-weight: bold;
+        text-align: right;
+        background:#06283d;
+        color: #ffffff;
+        border-bottom:   rgb(26, 87, 122) 6px solid;
+        }
+        @media (max-width: 575.98px) {
+            header{
+                background-position: center center;
+               }
+        }
+        @media(max-width: 576px) and (max-width: 767.98px) {
+            header{
+                background-position: center center;
+               }
+        }   
+        @media(max-width: 768px) and (max-width: 991.98px) 
+        {
+           header{
+            background-position: center center;
+           }
+        }   
+
+        
+
+    footer {
+        padding: 20PX;
+        margin-top: 0;
+        color: #ffffff;
+        background-color:#06283d;
+        text-align: center;
+        font-weight: bold;
+        font-size: 20px;
+    
+    }
+    a {
+        text-decoration: none;
+        font-weight: bold;
+        color: #06283d;
+
+
+    }
+    a :hover {
+        transition: 0.4s;
+        font-size: 20px;
+        vertical-align: middle;
+        }
